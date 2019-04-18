@@ -1,3 +1,20 @@
+<!-- <?php
+
+if($_POST["submit"]) {
+    $recipient="your@email.address";
+    $subject="Form to email message";
+    $sender=$_POST["sender"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?> -->
 <!doctype html>
 <html class="no-js" lang="">
 
@@ -18,22 +35,88 @@
 </head>
 
 <body>
+  <div id="ds_grid_main">
+    <div id="ds_header_img">
+      <img src="/img/desiringsubjects_header.png" alt="ds_header">
+    </div
+    <div id="ds_blk_1">
+      <img src="/img/desiringsubjects_exploreforbiddenself.png" alt="EXPLORE YOUR FORBIDDEN SELF">
+      <p>THINK NIGHTLIFE PHOTOGRAPHY, INTERSECTS WITH VISUAL-SEMIOTIC THEORY, AND PARA-PORNOGRAPHY BEING LED BY FOURTH WAVE FEMINIST IDEAS OF INTIMATE LABOUR AND THE POLITICS OF REPRESENTATION. WHAT MATTERS MORE THAN THE THEORY IS YOU, THE ODDITIES AND ENIGMAS THAT MAKE UP WHO YOU ARE, AND THE WILINGNESS TO BE IN A PERFORMATIVE SPACE WITH US AND YOURSELF. WE WANT TO 'INVENT YOU AS YOU ARE.'</p>
+    </div>
+  <div id="ds_blk_2">
+    <div id="ds_blk_2_1">
+      <p>Inside the panties a hairy secret lurks. Inside the underwear, a wonder secret dangles. What happens when this secret is revealed and reality collapses? A new dressing up, after which a new undressing follows- ((not unlike the process that takes place at the amusement park's haunted house, where the monster throws himself against the visitor, and then is squeakingly pulled back into its hole.)) this is the very image of the movement of reproduction, its grinding always-same.</p>
+      <p>Parapornography advocates an immoderate and insatiable desire: its hunger for eternal life and infinite pleasure -- a simultaneously ironic and affirming attitude toward pornography. Parapornography could only occur in a postpornographic era, after the implementation of a pornographic revolution. It can thus be regarded as the ironic self-awareness of postpornography.</p>
+    </div>
+    <div id="ds_blk_2_2">
+      <img src="/img/ds_asabovesobelow.jpg" alt="as above so below">
+    </div>
+  </div>
+  <div id="ds_blk_3">
+    <img src="/img/ds_tree.jpg" alt="treebunnies">
+  </div>
+  <div id="ds_blk_4">
+    <div id="ds_blk_4_1">
+      <div id="ds_blk_4_1_1">
+        <img src="/img/ds_blk_4_1.png" alt="A project of participatory observations">
+      </div>
+      <div id="ds_blk_4_1_2">
+        <img src="/img/ds_blk_4_2.png" alt="Founded on the basis that there is delight in performativity">
+      </div>
+      <div id="ds_blk_4_1_3">
+        <img src="/img/_ds_blk_4_3.png" alt="What this project wishes to endore is that in their willing participation girls are free to enjoy their sexuality">
+      </div>
+    </div>
+    <div id="ds_blk_4_2">
+      <img src="/img/ds_mac" alt="scrivener_mac">
+    </div>
+  </div>
+  <div id="ds_blk_5">
+    <!-- Testing img -->
+    <img src="/img/desiringsubjects_header.png" alt="ds_header">
+    <!-- /testing img -->
+
+    <!--
+      <div style="padding:56.25% 0 0 0;position:relative;">
+        <iframe src="https://player.vimeo.com/video/313602305?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    -->
+  </div>
+  <div id="ds_blk_6">
+    <img src="/img/ds_blk_6.png" alt="ds_blk_6_art_babe">
+  </div>
+  <!-- <div id="ds_form">
+    <?=$thankYou ?>
+    <form method="post" action="contact.php">
+        <label>Name:</label>
+        <input name="sender">
+
+        <label>Email address:</label>
+        <input name="senderEmail">
+
+        <label>Message:</label>
+        <textarea rows="5" cols="20" name="message"></textarea>
+
+        <input type="submit" name="submit">
+    </form>
+  </div> -->
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <!-- <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+  </div>
 
 
 
-  <p>Hello world! Nomads Subject Intake Site WIP.</p>
-  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <!-- <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
 </body>
 
 </html>
